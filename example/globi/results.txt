@@ -1,0 +1,11 @@
+subj,verb,obj
+http://eol.org/pages/14119,http://www.w3.org/2002/07/owl#sameAs,http://eol.org/pages/14119
+http://eol.org/pages/14119,http://www.w3.org/2002/07/owl#sameAs,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=97209
+http://eol.org/pages/14119,http://www.w3.org/2002/07/owl#sameAs,http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=633275
+http://eol.org/pages/14119,http://www.w3.org/2002/07/owl#sameAs,https://www.irmng.org/aphia.php?p=taxdetails&id=1020187
+http://eol.org/pages/14119,http://www.w3.org/2002/07/owl#sameAs,http://www.gbif.org/species/2437961
+http://eol.org/pages/14119,http://www.w3.org/2002/07/owl#sameAs,https://www.wikidata.org/wiki/Q1232962
+_:29a6e06979d1f12154069968598c7bf9,http://purl.obolibrary.org/obo/RO_0000057,_:693c245c52a3a1c48a2d156735def0e3
+_:29a6e06979d1f12154069968598c7bf9,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://purl.obolibrary.org/obo/GO_0044419
+_:693c245c52a3a1c48a2d156735def0e3,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://purl.obolibrary.org/obo/CARO_0010004
+_:693c245c52a3a1c48a2d156735def0e3,http://purl.obolibrary.org/obo/RO_0002350,http://eol.org/pages/14119

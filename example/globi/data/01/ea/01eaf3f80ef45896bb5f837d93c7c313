@@ -1,0 +1,1 @@
+curl -L https://zenodo.org/record/8284068/files/interactions.nq.gz | gunzip | head -n10

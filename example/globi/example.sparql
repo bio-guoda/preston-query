@@ -1,0 +1,4 @@
+SELECT DISTINCT ?subj ?verb ?obj
+WHERE {
+?subj ?verb ?obj .
+}
