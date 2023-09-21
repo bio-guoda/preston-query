@@ -24,7 +24,7 @@ cat [some SPARQL query]\
  | ./query.sh [content anchor] 
 ~~~
 
-produces results like [example/page2023/results.txt](./example/page2023/results.txt) which was used to produce the table below.
+produces results like [examples/page2023/results.txt](./examples/page2023/results.txt) which was used to produce the table below.
 
 For more examples, please explore more [examples](./examples/).
 
