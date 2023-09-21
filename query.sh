@@ -6,6 +6,12 @@
 # to execute provided query 
 # on a well defined graph.
 #
+# usage:
+#    cat [some query] | query.sh [content id anchor]
+#
+# For examples, see https://github.com/bio-guoda/preston-query .
+#
+# ! work in progress !
 
 set -xe
 
