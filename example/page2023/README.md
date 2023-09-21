@@ -1,5 +1,5 @@
 ---
-title: Packaging Knowledge Graphs for Reuse: Taxonomic Literature Use Case
+title: "Packaging Knowledge Graphs for Reuse: Taxonomic Literature Use Case"
 author: Jorrit H. Poelen
 abstract: |
   Knowledge Graphs capture associations between entities (or nodes) through relationships (or edges). However, running queries against versioned/citable graphs to reproduce previous results remains troublesome due to variation in data due known phenomena (i.e. linkrot, content drift) associated with location based identifiers. In addition,  manual installation procedures. Here we show a method to run a query expressed in SPARQL against a package collection of digital resources. We demonstrate how existing graph resources can be repackaged and signed. This signed digital corpus is identified by a secure cryptographic hash. This hash is used to retrieve referenced graph resources, which are then loaded into a verified graph datastore. After loading, the provided query is executed and the results are turned.  
