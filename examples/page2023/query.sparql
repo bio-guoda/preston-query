@@ -1,3 +1,9 @@
+# derived from Figure 14. published in:
+#
+# Page R (2023) Ten years and a million links: building a global taxonomic library connecting persistent
+# identifiers for names, publications and people. Biodiversity Data Journal 11: e107914.
+# https://doi.org/10.3897/BDJ.11.e107914
+#
 PREFIX schema: <http://schema.org/>
 SELECT DISTINCT ?person ?person_name
 # FROM <https://www.ipni.org>
