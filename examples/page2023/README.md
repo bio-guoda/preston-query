@@ -20,11 +20,11 @@ A primary test case for reuse is to reproduce some or all of the results documen
 We built a workflow to retrieve digital resources in a signed manifest, load them into a (temporary) graph database of known version, execute a provided query, and capture the results.
 
 ~~~
-cat example/page2023/query.sparql\
+cat query.sparql\
  | ./query.sh
 ~~~
 
-produced [example/page2023/results.txt](./example/page2023/results.txt) which was used to produce the table below.
+produced [results.txt](./results.txt) after applying [query.sparql](./query.sparql) which was used to produce the table below.
 
 | person | person_name |
 | --- | --- |
