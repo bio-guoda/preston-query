@@ -73,9 +73,9 @@ For a human reader, it may be obvious that Index Fungorum ntriples and tsv table
 
 | Dataset name |  DOI (all versions) | ChecklistBank ID | Github Repository |
 | --- | --- | --- | --- | 
-| Index Fungorum | https://doi.org/10.5281/zenodo.7211134 | 129659 | https://github.com/rdmpage/indexfungorum-coldp |
+| Index Fungorum | https://doi.org/10.5281/zenodo.7211134 | 129659 | https://github.com/rdmpage/index-fungorum-coldp |
 | IPNI | https://doi.org/10.5281/zenodo.7208699 | 164203 | https://github.com/rdmpage/ipni-coldp |
-| BioNames (ION) | https://doi.org/10.5281/zenodo.7977714 | 128415 | https://github.com/rdmpage/bionamescoldp |
+| BioNames (ION) | https://doi.org/10.5281/zenodo.7977714 | 128415 | https://github.com/rdmpage/bionames-coldp |
 : Reprinted Content of Table 2. from [@Page_2023] "Datasets of names mapped to persistent identifiers for the literature [...]"
 
 ## Formalizing Data Provenance
