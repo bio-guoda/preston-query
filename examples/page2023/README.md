@@ -298,18 +298,20 @@ After removing the explicit `FROM` statements, the query was edited to be:
 ~~~
 PREFIX schema: <http://schema.org/>
 SELECT DISTINCT ?person ?person_name
+# FROM <https://www.ipni.org>
+# FROM <https://orcid.org>
 WHERE {
-?id schema:propertylD "RINGGOLD" .
+?id schema:propertyID "RINGGOLD" .
 ?id schema:value "41803" .
-?org schema:identifier 2id .
+?org schema:identifier ?id .
 ?person schema:affiliation ?org .
-?work schema:creator 2person .
-?taxonName schema:isBasedOn work .
+?work schema:creator ?person .
+?taxonName schema:isBasedOn ?work .
 ?taxonName schema:name ?name .
 {
 ?person schema:givenName ?givenName .
 ?person schema:familyName ?familyName .
-BIND(CONCAT(?givenName, "", ?familyName) AS ?person_name).
+BIND(CONCAT(?givenName, " ", ?familyName) AS ?person_name).
 
 }
 }
