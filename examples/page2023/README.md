@@ -257,7 +257,7 @@ ystein Lofthus
 ␌
 ~~~
 
-4. manually curate results to produce a well-formed sparql query
+4. manually curate results, fixing OCR transcription errors, to produce a well-formed sparql query
 
 
 ~~~
@@ -283,17 +283,22 @@ BIND(CONCAT(?givenName, "", ?familyName) AS ?person_name).
 ORDER BY ?person_name
 ~~~
 
-After OCR transcription errors, this produced the query produced the following results after loading the referenced data into oxigraph v0.3.18 .
+5. execute query using [oxigraph](https://oxigraph.org) v0.3.18 via
 
 ~~~
 $ cat query.sparql\
  | ./oxigraph query\
- --location /tmp/tmp.AYE5FLyw5W\
+ --location /some/path\
  --results-format txt
-person,person_name
+~~~
+
+produced an empty result including only a header:
+
+~~~
+ORDER BY ?person_name
 ~~~
  
-After removing the explicit `FROM` statements, the query was edited to be:
+6. Rerun query after removing the explicit `FROM` statements:
 
 ~~~
 PREFIX schema: <http://schema.org/>
@@ -319,7 +324,7 @@ ORDER BY ?person_name
 ~~~
 : Query with FROM statement removed
 
-Which resulted in the following results:
+produced the expected results results:
 
 ~~~
 person,person_name
