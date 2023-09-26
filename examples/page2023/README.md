@@ -356,6 +356,4 @@ https://orcid.org/0000-0002-6143-3411,Øystein Lofthus
 ~~~
 
 # Discussion
-
-
  
