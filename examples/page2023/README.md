@@ -4,6 +4,8 @@ author: Jorrit H. Poelen
 abstract: |
   Knowledge Graphs capture associations between entities (or nodes) through relationships (or edges). However, running queries against versioned/citable graphs to reproduce previous results remains troublesome due to variation in data due known phenomena (i.e. linkrot, content drift) associated with location based identifiers. In addition,  manual installation procedures. Here we show a method to run a query expressed in SPARQL against a package collection of digital resources. We demonstrate how existing graph resources can be repackaged and signed. This signed digital corpus is identified by a secure cryptographic hash. This hash is used to retrieve referenced graph resources, which are then loaded into a verified graph datastore. After loading, the provided query is executed and the results are turned.  
 date: 2023-09-21
+bibliography: biblio.bib
+reference-section-title: References
 ---
 
 :warning: work in progress
@@ -352,13 +354,6 @@ https://orcid.org/0000-0002-8196-288X,Toby Pennington
 https://orcid.org/0000-0003-2926-1645,Zoë Goodwin
 https://orcid.org/0000-0002-6143-3411,Øystein Lofthus
 ~~~
-
-
-
-
-
-
-
 
 # Discussion
 
